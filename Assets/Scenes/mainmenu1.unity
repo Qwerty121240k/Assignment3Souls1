@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a51115d7757072488824b36ac91146d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worldsceneIndex: 1
 --- !u!4 &12486363
 Transform:
   m_ObjectHideFlags: 0
@@ -421,8 +422,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 23469321}
-        m_TargetAssemblyTypeName: sg.TitleScreenManager, Assembly-CSharp
-        m_MethodName: StartNetworkAsHost
+        m_TargetAssemblyTypeName: cm.TitleScreenManager, Assembly-CSharp
+        m_MethodName: StartNewGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

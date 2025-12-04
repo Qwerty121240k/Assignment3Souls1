@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Netcode;
+using CM;
 
 
-namespace sg
+namespace cm
 {
     public class TitleScreenManager : MonoBehaviour
     {
@@ -13,11 +14,10 @@ namespace sg
         {
             NetworkManager.Singleton.StartHost();
         }
-
-        // Update is called once per frame
-        void Update()
+        public void StartNewGame()
         {
-    
+            StartCoroutine(worldSaveGameManager.instence.LoadNewGame());
         }
+       
     }
 }

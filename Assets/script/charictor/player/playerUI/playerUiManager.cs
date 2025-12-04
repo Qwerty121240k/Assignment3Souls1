@@ -21,6 +21,14 @@ namespace CM
                 Destroy(gameObject);
             }
         }
+
+
+        private void Start()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+
+
         private void Update()
         {  
             if(startGameAsClient)

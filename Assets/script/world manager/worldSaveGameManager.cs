@@ -31,5 +31,7 @@ namespace CM
             AsyncOperation loadOperation = SceneManager.LoadSceneAsync(worldsceneIndex);
             yield return null;
         }
+        public int getworldSceneindex()
+        { return worldsceneIndex; }
     }
 }

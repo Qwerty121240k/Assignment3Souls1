@@ -1,13 +1,13 @@
 {
     "version": 1,
-    "name": "playerControls",
+    "name": "PlayerControls",
     "maps": [
         {
-            "name": "player movement",
+            "name": "Player movement",
             "id": "239ac707-1b4f-40e9-b95f-335561ae1062",
             "actions": [
                 {
-                    "name": "movement",
+                    "name": "Movement",
                     "type": "PassThrough",
                     "id": "d4c9ba19-3a41-4700-8b61-ef73171edfb0",
                     "expectedControlType": "Vector2",
@@ -18,24 +18,13 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "64c71596-2fdb-4f94-a774-90ba1305e471",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "movement",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "leftstick",
                     "id": "7955f209-00a1-4621-852a-ff835933740c",
                     "path": "2DVector(mode=2)",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -46,7 +35,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -57,7 +46,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -68,7 +57,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -79,7 +68,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -90,7 +79,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -101,7 +90,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -112,7 +101,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -123,7 +112,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -134,7 +123,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "movement",
+                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }
